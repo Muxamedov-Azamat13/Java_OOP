@@ -7,7 +7,7 @@ public class Cat extends Animal {
     Double discount;
 
     public Cat(String nickName, Owner owner, LocalDate birthDate, Illness illness, Double discount) {
-        super(nickName, owner, birthDate, illness); //Todo сначала конструктор Супер-класса
+        super(nickName, owner, birthDate, illness); // сначала конструктор Супер-класса
         this.discount = discount;
     }
 
@@ -24,7 +24,7 @@ public class Cat extends Animal {
         this.discount = discount;
     }
 
-    //Todo статикой пользоваться аккуратно ( пароли там не хранить :-) )
+    // статикой пользоваться аккуратно ( пароли там не хранить :-) )
     public static void meow() {
         System.out.println("Мяяяу!");
     }
